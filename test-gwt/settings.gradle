@@ -1,0 +1,2 @@
+includeFlat "test-core"
+project(":test-core").name = "test-core"

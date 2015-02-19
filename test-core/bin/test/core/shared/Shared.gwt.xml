@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<inherits name="com.google.gwt.user.User" />
+	
+ 	<inherits name='javax.inject.Inject'/>  
+  	<inherits name='dagger.Dagger'/>   
+	<inherits name="com.goodow.realtime.json.Json" />
+
+	<source path="" />
+
+</module>

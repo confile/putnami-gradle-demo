@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='gwtt'>
+  <inherits name='com.google.gwt.user.User'/>
+
+  <inherits name='test.core.shared.Shared'/>                       
+
+
+  <entry-point class='test.client.GWTT'/>
+
+  <source path='client'/>
+  
+  <set-property name="user.agent" value="safari" />
+
+  <add-linker name="xsiframe"/>
+</module>
