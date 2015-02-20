@@ -64,3 +64,6 @@ dependencies {
   compile name: 'realtime-json-0.5.5-SNAPSHOT-sources'
 }
  
+jar {
+  from "build/source/apt"
+} 
