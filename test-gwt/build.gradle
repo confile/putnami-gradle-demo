@@ -2,7 +2,6 @@ apply plugin: 'java'
 apply plugin: 'fr.putnami.gwt'
 apply plugin: 'war'
 apply plugin: 'eclipse'
-apply from: 'release-ios.gradle'
 
 sourceCompatibility = 1.7
 version = '1.0'
