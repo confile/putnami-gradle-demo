@@ -2,8 +2,7 @@
 <module rename-to='gwtt'>
   <inherits name='com.google.gwt.user.User'/>
   <inherits name="com.google.gwt.json.JSON" />
-
-  <inherits name='test.core.shared.Shared'/>                       
+                     
   <inherits name='Test'/>  
   <inherits name='Test2'/>  
 
