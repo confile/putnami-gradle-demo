@@ -4,7 +4,6 @@
   <inherits name="com.google.gwt.json.JSON" />
                      
   <inherits name='Test'/>  
-  <inherits name='Test2'/>  
 
  
   <entry-point class='test.client.GWTT'/>
