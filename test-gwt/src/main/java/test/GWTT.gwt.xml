@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module rename-to='gwtt'>
   <inherits name='com.google.gwt.user.User'/>
+  <inherits name="com.google.gwt.json.JSON" />
 
   <inherits name='test.core.shared.Shared'/>                       
+  <inherits name='Test'/>  
+  <inherits name='Test2'/>  
 
-
+ 
   <entry-point class='test.client.GWTT'/>
 
   <source path='client'/>

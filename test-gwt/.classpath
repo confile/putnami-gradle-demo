@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="java2/jre/java2/|java2/jre/|emul/|emul/" kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
 	<classpathentry kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer" exported="true"/>
 	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="/test-core" exported="true"/>
-	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-user/2.7.0/2abdc607f5101c9f431f1e671ee30061d42b8906/gwt-user-2.7.0-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-user/2.7.0/bdc7af42581745d3d79c2efe0b514f432b998a5b/gwt-user-2.7.0.jar" exported="true"/>
-	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-dev/2.7.0/fb00ef13cd32ac24db472af702463e11f11c0871/gwt-dev-2.7.0-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-dev/2.7.0/c2c3dd5baf648a0bb199047a818be5e560f48982/gwt-dev-2.7.0.jar" exported="true"/>
+	<classpathentry kind="src" path="/test-gwt-emul" exported="true"/>
+	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0-SNAPSHOT/58cffd04a4c79a3ba32d16bdf394cac392eddea6/dagger-2.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0-SNAPSHOT/3cbe5b05757bf0968b8999ffbbb1abf69acee602/dagger-2.0-SNAPSHOT.jar" exported="true"/>
+	<classpathentry kind="lib" path="/Users/mg/Documents/Grails/GGTS3.6.3-SR1/test-gwt/lib/dagger-2.0-SNAPSHOT-sources.jar" exported="true"/>
+	<classpathentry kind="lib" path="/Users/mg/Documents/Grails/GGTS3.6.3-SR1/test-gwt/lib/javax.inject-1-sources.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/mg/Documents/Grails/GGTS3.6.3-SR1/test-gwt/lib/realtime-json-0.5.5-SNAPSHOT-sources.jar" kind="lib" path="/Users/mg/Documents/Grails/GGTS3.6.3-SR1/test-gwt/lib/realtime-json-0.5.5-SNAPSHOT.jar" exported="true"/>
+	<classpathentry kind="lib" path="/Users/mg/Documents/Grails/GGTS3.6.3-SR1/test-gwt/lib/realtime-json-0.5.5-SNAPSHOT-sources.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-user/2.8.0-SNAPSHOT/7be2ce306ebc49665766bc8df09ec188b91e7044/gwt-user-2.8.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-user/2.8.0-SNAPSHOT/b27bc2b483d5bbced219891d9ef4b7f27be96d20/gwt-user-2.8.0-SNAPSHOT.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-dev/2.8.0-SNAPSHOT/a3da858b7a88f26956f4630cde3df54148aab3ab/gwt-dev-2.8.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-dev/2.8.0-SNAPSHOT/5fb101b9c2c6e61d2ed2f1f83d34c875e2e8545b/gwt-dev-2.8.0-SNAPSHOT.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/mg/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar" kind="lib" path="/Users/mg/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar" exported="true"/>

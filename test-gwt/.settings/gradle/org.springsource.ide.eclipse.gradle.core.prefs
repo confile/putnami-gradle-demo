@@ -1,5 +1,5 @@
 #org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
-#Thu Feb 19 21:47:46 CET 2015
-build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;../test-core;
+#Sat Feb 21 22:07:12 CET 2015
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;../test-core;../test-gwt-emul;
 org.springsource.ide.eclipse.gradle.linkedresources=
 org.springsource.ide.eclipse.gradle.rootprojectloc=
