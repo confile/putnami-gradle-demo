@@ -1,0 +1,9 @@
+build/
+bin/
+target/
+.gradle/
+.settings/
+.project
+.classpath
+.DS_Store
+.DS_Store?
